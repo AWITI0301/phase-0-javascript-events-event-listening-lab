@@ -1,7 +1,9 @@
 
 
+
+const press = document.getElementById('input')
 function addingEventListener() {
-    input.addEventListener('click', function() {
-        alert('I was clicked!');
-})
+    press.addEventListener('click', function(event) {
+        return "clicked"
+      });
 }
